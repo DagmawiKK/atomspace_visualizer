@@ -682,23 +682,3 @@ applyLayout(algorithm: LayoutAlgorithm, options?: LayoutOptions): void
 render(ctx: CanvasRenderingContext2D, transform: Transform): void
 getLayoutState(): LayoutState
 ```
-
-## Performance Considerations
-
-1. **Canvas Rendering Optimization**: Viewport culling for nodes and edges outside visible area
-2. **Animation Performance**: RequestAnimationFrame-based smooth interpolation with easing
-3. **Memory Management**: Proper cleanup of event listeners and animation frames
-4. **Responsive Design**: Dynamic UI positioning with ResizeObserver for optimal layout
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Follow the established architecture patterns
-4. Add comprehensive tests for new functionality
-5. Update documentation for API changes
-6. Submit a pull request
-
-## License
-
-MIT License
